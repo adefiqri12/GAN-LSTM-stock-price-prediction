@@ -71,15 +71,10 @@ Evaluation metrics for all stocks are summarized in a DataFrame. Detailed metric
 
 ## How to Use
 
-### Prerequisites
-- Python 3.x
-- Required libraries: `ta`, `yfinance`, `pandas`, `numpy`, `joblib`, `tensorflow`, `matplotlib`, `sklearn`
-
-### Steps
 1. Clone this repository.
 2. Install dependencies: `pip install -r requirements.txt`
 3. Run `process_data.py` to prepare the dataset and compute features.
-4. Train the model using `lstm.py`.
+4. Train the model using `stock_prediction_LSTM_temporal.py`.
 5. Evaluate and visualize results using the built-in evaluation functions.
 
 ---
@@ -88,3 +83,5 @@ Evaluation metrics for all stocks are summarized in a DataFrame. Detailed metric
 1. Experiment with different architectures (e.g., GAN models).
 2. Add sentiment analysis from news articles to complement technical indicators.
 3. Improve hyperparameter tuning for better performance.
+
+---
