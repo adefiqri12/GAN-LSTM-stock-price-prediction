@@ -46,8 +46,6 @@ The model uses an LSTM layer to capture temporal dependencies in the stock price
 
 ### Metrics
 The model is evaluated on the test set using the following metrics:
-- **Mean Squared Error (MSE)**
-- **Root Mean Squared Error (RMSE)**
 - **Mean Absolute Error (MAE)**
 
 ### Visualization
@@ -61,11 +59,6 @@ Predictions are visualized by plotting the actual vs. predicted prices for each 
 Evaluation metrics for all stocks are summarized in a DataFrame. Detailed metrics and prediction plots for each stock are available.
 
 ### Example Output
-- **AAPL:**
-  - MSE: 2.3456
-  - RMSE: 1.5312
-  - MAE: 1.2345
-- ...
 
 ---
 
