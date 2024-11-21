@@ -1,2 +1,5 @@
 ta==0.10.2
 yfinance
+optuna
+plotly
+ipython-autotime
