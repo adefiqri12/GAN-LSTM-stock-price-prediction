@@ -4,3 +4,4 @@ optuna
 plotly
 ipython-autotime
 statsmodels
+xgboost
