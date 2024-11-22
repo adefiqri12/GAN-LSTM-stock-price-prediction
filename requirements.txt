@@ -3,3 +3,4 @@ yfinance
 optuna
 plotly
 ipython-autotime
+statsmodels
